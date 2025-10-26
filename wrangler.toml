@@ -5,7 +5,7 @@ pages_build_output_dir = ".vercel/output/static"
 
 # 默认 D1 数据库配置（用于命令行操作）
 [[d1_databases]]
-binding = "katelyatv_db"
+binding = "DB"
 database_name = "katelyatv-db"
 database_id = "94d0813f-52a4-469c-86e0-9ed56a91a98e"
 
@@ -15,7 +15,7 @@ name = "katelyatv"
 
 # 生产环境 D1 数据库配置
 [[env.production.d1_databases]]
-binding = "katelyatv_db"
+binding = "DB"
 database_name = "katelyatv-db"
 database_id = "94d0813f-52a4-469c-86e0-9ed56a91a98e"
 
@@ -66,3 +66,4 @@ HEALTH_CHECK_INTERVAL = "30"
 LOG_LEVEL = "info"
 LOG_FORMAT = "json"
 NODE_ENV = "production"
+
