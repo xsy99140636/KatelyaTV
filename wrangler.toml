@@ -5,9 +5,9 @@ pages_build_output_dir = ".vercel/output/static"
 
 # 默认 D1 数据库配置（用于命令行操作）
 [[d1_databases]]
-binding = "DB"
+binding = "katelyatv_db"
 database_name = "katelyatv-db"
-database_id = "ffe2ef9c-5997-46c9-984a-fb59a05d07c6"
+database_id = "94d0813f-52a4-469c-86e0-9ed56a91a98e"
 
 # 生产环境配置
 [env.production]
@@ -15,9 +15,9 @@ name = "katelyatv"
 
 # 生产环境 D1 数据库配置
 [[env.production.d1_databases]]
-binding = "DB"
+binding = "katelyatv_db"
 database_name = "katelyatv-db"
-database_id = "ffe2ef9c-5997-46c9-984a-fb59a05d07c6"
+database_id = "94d0813f-52a4-469c-86e0-9ed56a91a98e"
 
 # 生产环境变量
 [env.production.vars]
@@ -26,7 +26,7 @@ NEXT_PUBLIC_SITE_NAME = "XKatelyaTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 NEXTAUTH_URL = "https://movie.xrain2025.top"
 USERNAME = "xsy99140636"
-AUTH_PASSWORD = "ab1433223cd@"
+AUTH_PASSWORD = "xsy900706"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
 CORS_ORIGIN = "*"
@@ -44,9 +44,9 @@ name = "katelyatv-preview"
 
 # 预览环境 D1 数据库配置
 [[env.preview.d1_databases]]
-binding = "DB"
+binding = "katelyatv_db"
 database_name = "katelyatv-db"
-database_id = "ffe2ef9c-5997-46c9-984a-fb59a05d07c6"
+database_id = "94d0813f-52a4-469c-86e0-9ed56a91a98e"
 
 # 预览环境变量
 [env.preview.vars]
@@ -55,7 +55,7 @@ NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
 NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 NEXTAUTH_URL = "https://katelyatv.pages.dev"
 USERNAME = "katelya"
-AUTH_PASSWORD = "ab1433223cd@"
+AUTH_PASSWORD = "xsy900706"
 IMAGE_PROXY_ENABLED = "true"
 CACHE_TTL = "3600"
 CORS_ORIGIN = "*"
